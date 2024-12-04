@@ -66,7 +66,7 @@ require_once 'util.php';
             </div>
         </div>
 
-        <?php if(isset($_SESSION) && count($_SESSION)>0) {?>
+        <?php if(isset($_SESSION["textos"]) && count($_SESSION["textos"])>0) {?>
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-6">
                 <form method="post">
